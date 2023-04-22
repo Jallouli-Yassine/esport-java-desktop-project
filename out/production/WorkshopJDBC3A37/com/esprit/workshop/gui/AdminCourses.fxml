@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.esprit.workshop.controllers.AdminCourses">
+    <children>
+        <TableView fx:id="forAdminAllCourses" layoutX="305.0" layoutY="57.0" prefHeight="193.0" prefWidth="766.0" stylesheets="@../assets/style.css">
+            <columns>
+                <TableColumn fx:id="titre" prefWidth="181.0" text="titre" />
+                <TableColumn fx:id="prix" prefWidth="143.0" text="prix" />
+                <TableColumn fx:id="niveau" prefWidth="137.0" text="niveau" />
+                <TableColumn fx:id="actionBtns" prefWidth="304.0" text="#" />
+
+            </columns>
+        </TableView>
+        <TableView fx:id="acceptedCourses" layoutX="102.0" layoutY="335.0" prefHeight="266.0" prefWidth="433.0" stylesheets="@../assets/style.css">
+            <columns>
+                <TableColumn fx:id="aTitre" prefWidth="137.0" text="titre" />
+                <TableColumn fx:id="aPrix" prefWidth="145.0" text="prix" />
+                <TableColumn fx:id="aNiveau" prefWidth="149.0" text="niveau" />
+            </columns>
+        </TableView>
+        <TableView fx:id="declinedCourses" layoutX="780.0" layoutY="335.0" prefHeight="266.0" prefWidth="433.0" stylesheets="@../assets/style.css">
+            <columns>
+                <TableColumn fx:id="dTitre" prefWidth="137.0" text="titre" />
+                <TableColumn fx:id="dPrix" prefWidth="145.0" text="prix" />
+                <TableColumn fx:id="dNiveau" prefWidth="149.0" text="niveau" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

@@ -1,0 +1,204 @@
+.product__add-input-label {
+  -fx-font-size: 14px;
+  -fx-font-weight: 700;
+}
+
+.input {
+-fx-border-color: #23002d81;
+ -fx-background-color: transparent; 
+ -fx-border-width: 0px 0px 2px 0px;
+ -fx-text-fill: #1d0025;
+
+
+
+}
+.input:focused {
+  -fx-border-color: #1d0025;
+}
+
+
+.BTN {
+  -fx-border-color: #23002d81;
+  -fx-background-color: transparent; 
+  -fx-border-width: 0px 0px 2px 0px;
+  -fx-padding: 10px 20px;
+  -fx-font-size: 15px;
+}
+
+.BTN:hover {
+  -fx-background-color: #23002dd4;
+  -fx-text-fill: white;
+  -fx-background-color: #23002dd4;
+  -fx-transition: -fx-background-color 3s ease;
+  -fx-cursor: hand;
+}
+
+.combo-box {
+  -fx-border-color: #23002d81;
+  -fx-background-color: transparent; 
+  -fx-border-width: 0px 0px 2px 0px;
+  -fx-text-fill: #1d0025;
+}
+
+
+.table-view {
+  -fx-font-size: 14px;
+}
+
+.table-view .column-header {
+  -fx-background-color: #23002d81;
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+  -fx-alignment: CENTER;
+}
+
+.table-view .column-header:hover {
+  -fx-background-color: #1d0025;
+  -fx-text-fill: white;
+}
+.table-view .column-header:hover .label {
+  -fx-text-fill: white;
+}
+
+.table-view .column-header .label {
+  -fx-text-fill: #1d0025;
+}
+
+
+.table-view .table-row-cell {
+  -fx-text-fill: #1d0025;
+}
+
+
+.table-view .table-row-cell:hover {
+  -fx-background-color: #23002dd4;
+}
+
+.table-view .table-row-cell:hover .table-cell {
+  -fx-text-fill: white;
+}
+
+
+.table-view .table-cell {
+  -fx-alignment: CENTER;
+}
+
+.grid-pane {
+  -fx-background-color: #f5f5f5;
+  -fx-padding: 10px;
+  -fx-hgap: 10px;
+  -fx-vgap: 10px;
+}
+#cardContainer {
+  -fx-background-color: white;
+  -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0, 0, 1);
+  -fx-alignment: center;
+  -fx-pref-width: 300;
+  -fx-pref-height: 350;
+  -fx-border-width: 1;
+  -fx-border-color: lightgrey;
+  -fx-border-radius: 10;
+  -fx-margin-left: 10px;
+}
+
+
+#cardContainer:hover {
+  -fx-scale-x: 1.05;
+  -fx-scale-y: 1.05;
+  -fx-cursor: hand;
+  -fx-transition: transform 1s;
+}
+
+#courseTitre, #coursePrix{
+    -fx-font-size: 18px;
+    -fx-alignment: center;
+}
+#labelT, #labelP {
+  -fx-font-size: 18px;
+  -fx-font-weight: bold;
+  -fx-alignment: center;
+}
+#addToWishlit ,#CourseImage{
+  -fx-alignment: center;
+}
+
+.refuser-btn {
+  -fx-background-color: #00FF00; /* Set the background color */
+  -fx-text-fill: white; /* Set the text color */
+  -fx-font-weight: bold; /* Set the font weight */
+  /* Add any other styles you want */
+}
+
+
+.axepterClass {
+  -fx-background-color: #007bff;
+  -fx-text-fill: white;
+}
+
+.axepterClass:hover {
+  -fx-background-color: #0069d9;
+}
+
+.axepterClass:pressed {
+  -fx-background-color: #0062cc;
+}
+
+.refuserClass {
+  -fx-background-color: #dc3545;
+  -fx-text-fill: white;
+}
+
+.refuserClass:hover {
+  -fx-background-color: #c82333;
+}
+
+.refuserClass:pressed {
+  -fx-background-color: #bd2130;
+}
+.cont {
+  -fx-max-width: 1000px;
+  -fx-margin: 0 auto;
+  -fx-display: flex;
+  -fx-flex-direction: row;
+  -fx-align-items: center;
+  -fx-justify-content: space-between;
+  -fx-padding: 20px;
+  -fx-background-color: #fff;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 0);
+  -fx-border-radius: 5px;
+}
+
+.info-name {
+  -fx-font-size: 20px;
+  -fx-font-weight: bold;
+}
+
+.info-winrate {
+  -fx-font-size: 20px;
+}
+
+.info-level {
+  -fx-font-size: 20px;
+}
+
+.queue-type {
+  -fx-font-size: 16px;
+  -fx-text-fill: #1b0f23;
+}
+
+.rank-button {
+  -fx-width: 300px;
+  -fx-background-color: #1b0f23;
+  -fx-text-fill: #fff;
+  -fx-font-size: 20px;
+  -fx-border-radius: 5px;
+  -fx-font-weight: bold;
+  -fx-padding: 10px 0;
+}
+
+.rank-button:hover {
+  -fx-background-color: #fff;
+  -fx-text-fill: #1b0f23;
+  -fx-border-color: #1b0f23;
+  -fx-border-width: 2px;
+}
